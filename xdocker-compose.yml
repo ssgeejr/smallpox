@@ -4,6 +4,4 @@ services:
     container_name: venom-tomcat
     ports:
       - "88:8080"
-    volumes:
-      - ./adobe:/usr/local/tomcat/webapps/ROOT
     restart: unless-stopped
